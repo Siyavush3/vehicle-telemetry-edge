@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9C9B840-E89F-42F7-9BC1-481AB128F4F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wim.Protocol", "src\Wim.Protocol\Wim.Protocol.csproj", "{DEDC41F4-E061-4386-9013-3D67242EB62A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wim.Serial", "src\Wim.Serial\Wim.Serial.csproj", "{8CD9A585-9CE4-4FA6-A95E-C6A33D6C4EB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{82327E4A-3B6D-4BBA-872F-DFC7E673E659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wim.Simulator", "tools\Wim.Simulator\Wim.Simulator.csproj", "{0077E450-D762-43D7-B772-464C82208FF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9838DBF5-C13A-42F4-BB4D-2CBCC647140A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wim.Protocol.Tests", "tests\Wim.Protocol.Tests\Wim.Protocol.Tests.csproj", "{88714BAA-4393-4F79-9953-219E7F027C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry.Delivery", "src\Telemetry.Delivery\Telemetry.Delivery.csproj", "{6CB43AF3-733C-4480-9482-C2B707F0AF6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry.Delivery.Tests", "tests\Telemetry.Delivery.Tests\Telemetry.Delivery.Tests.csproj", "{DD3E7065-504E-4F99-99B2-120C7CE09020}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEDC41F4-E061-4386-9013-3D67242EB62A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDC41F4-E061-4386-9013-3D67242EB62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDC41F4-E061-4386-9013-3D67242EB62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDC41F4-E061-4386-9013-3D67242EB62A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD9A585-9CE4-4FA6-A95E-C6A33D6C4EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD9A585-9CE4-4FA6-A95E-C6A33D6C4EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD9A585-9CE4-4FA6-A95E-C6A33D6C4EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD9A585-9CE4-4FA6-A95E-C6A33D6C4EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0077E450-D762-43D7-B772-464C82208FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0077E450-D762-43D7-B772-464C82208FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0077E450-D762-43D7-B772-464C82208FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0077E450-D762-43D7-B772-464C82208FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88714BAA-4393-4F79-9953-219E7F027C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88714BAA-4393-4F79-9953-219E7F027C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88714BAA-4393-4F79-9953-219E7F027C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88714BAA-4393-4F79-9953-219E7F027C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB43AF3-733C-4480-9482-C2B707F0AF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB43AF3-733C-4480-9482-C2B707F0AF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB43AF3-733C-4480-9482-C2B707F0AF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB43AF3-733C-4480-9482-C2B707F0AF6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3E7065-504E-4F99-99B2-120C7CE09020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3E7065-504E-4F99-99B2-120C7CE09020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3E7065-504E-4F99-99B2-120C7CE09020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3E7065-504E-4F99-99B2-120C7CE09020}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEDC41F4-E061-4386-9013-3D67242EB62A} = {D9C9B840-E89F-42F7-9BC1-481AB128F4F6}
+		{8CD9A585-9CE4-4FA6-A95E-C6A33D6C4EB9} = {D9C9B840-E89F-42F7-9BC1-481AB128F4F6}
+		{0077E450-D762-43D7-B772-464C82208FF1} = {82327E4A-3B6D-4BBA-872F-DFC7E673E659}
+		{88714BAA-4393-4F79-9953-219E7F027C12} = {9838DBF5-C13A-42F4-BB4D-2CBCC647140A}
+		{6CB43AF3-733C-4480-9482-C2B707F0AF6F} = {D9C9B840-E89F-42F7-9BC1-481AB128F4F6}
+		{DD3E7065-504E-4F99-99B2-120C7CE09020} = {9838DBF5-C13A-42F4-BB4D-2CBCC647140A}
+	EndGlobalSection
+EndGlobal
